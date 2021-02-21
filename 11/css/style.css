@@ -1,0 +1,196 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#container{
+    display: flex;
+}
+
+
+/*Left Container CSS*/
+
+#container .leftContainer{
+    width: 750px;
+    
+}
+.leftContainer h1 {
+    font-size: 55px;
+    font-weight: 600;
+    padding: 0px 75px;
+    margin: 180px 10px;
+    color: #db545a;
+}
+
+.discriptionContainer {
+    width: 340px;
+    height: 70px;
+    position: relative;
+    margin-top: -135px;
+    margin-left: 190px;
+}
+.discriptionContainer h4 {
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 15px;
+    color: #db545a;
+}
+.discriptionContainer span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.icons {
+    position: relative;
+    float: left;
+    margin-left: -70px;
+}
+
+
+.icons i {
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #db545a;
+
+}
+.icons i:hover{
+    color: black;
+}
+
+
+
+
+
+
+/*Left Container CSS End*/
+/* Right Container CSS*/
+
+#container .rightContainer{
+    width: 495px;
+    height: 550px;
+    background: #ffffff;
+    margin-top: 70px;
+    
+}
+
+
+.rightContainer h1 {
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 30px;
+    color: #db545a;
+}
+
+.rightContainer input {
+    font-size: 17px;
+}
+.rightContainer div {
+    box-sizing: border-box;
+}
+
+.enterName {
+    height: 45px;
+    width: 360px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #db545a;
+    
+}
+input[type="name"] {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 0;
+    
+}
+
+
+.enterEmail {
+    height: 45px;
+    width: 360px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #db545a;
+
+}
+input[type="email"] {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 0;
+}
+
+.enterMessage {
+    height: 130px;
+    width: 360px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #db545a;
+}
+
+textarea[type="message"] {
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    resize: none;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+
+
+button.submitBtn {
+    width: 140px;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    background: #db545a;
+    margin-left: 60px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.submitBtn:hover{
+    background: #d63b42;
+}
+button.submitBtn:hover a{
+    color: white;
+}
+
+button.submitBtn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+/* Right Container CSS End*/
+
+
+
+
+
+
+
+
+
+
+
+
